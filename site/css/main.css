@@ -64,6 +64,10 @@ article {
     border-radius: 25px;
 }
 
+footer {
+    margin-bottom: 15px;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -75,4 +79,3 @@ article {
         width: 90%; 
     }
 }
-

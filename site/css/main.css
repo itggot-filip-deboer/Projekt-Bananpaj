@@ -9,6 +9,9 @@ body {
     background-position: center;*/
     background-color: #f4e842;
     background-attachment:fixed;
+    background-image: url("../img/bananatree.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
@@ -18,6 +21,9 @@ margin-bottom: 20px;
 display: flex;
 flex-direction: row;
 align-items: center;
+color: #f4e842;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: 1px solid #000;
 
 }
 

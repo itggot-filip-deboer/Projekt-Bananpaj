@@ -68,7 +68,42 @@ article {
     padding: 15px;
     border-radius: 25px;
     width: 65%;
+    display: flex;
+    flex-direction: column;
     
+}
+
+.articlegallery {
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 25px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    width: 300px;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gallery2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+.firstrow {
+    display: flex;
+    flex-direction: row;
+}
+.secondrow {
+    display: flex;
+    flex-direction: row;
 }
 
 .aside2 {
@@ -117,4 +152,8 @@ footer {
         align-items: center;
     }
 
+}
+
+@media screen and (max-width: 800px){
+    
 }
